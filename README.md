@@ -1,14 +1,15 @@
 # flutter_open_app
 
-A new flutter plugin project.
+![](https://img.shields.io/badge/build-passing-brightgreen)
+![](https://img.shields.io/badge/version-0.0.1-orange)
+![](https://img.shields.io/badge/platform-flutter-lightgrey)
 
-## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+## 安装
+	dependencies:
+	  flutter_open_app: ^0.0.1
 
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.dev/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+## 使用
+	FlutterOpenApp.openUrl(openUrl).then((res) {
+	       print('result:$res');
+	});
